@@ -1,0 +1,1 @@
+console.log('pali-JS-OK');
