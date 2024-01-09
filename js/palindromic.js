@@ -3,7 +3,7 @@ console.log('palindromic-JS-OK');
 //* Requiring user word imput
 let userWord = prompt('Inserire la parola da verificare:', 'Anna').trim();
 
-console.log(userWord);
+console.log("Parola inserita dall'utente:", userWord);
 
 //* Validating user imput
 if (!isNaN(userWord) || userWord.length < 3) {
