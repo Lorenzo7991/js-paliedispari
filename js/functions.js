@@ -15,10 +15,9 @@ function isPalindrome(input) {
  * Generate a random number between 1 and 5
  * @returns //The random number
  */
-function getRandomNumber() {
-    return Math.floor(Math.random() * 5) + 1;
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
 
 /**
  * Verifying if the number is even
