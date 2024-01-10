@@ -24,6 +24,6 @@ function getRandomNumber(min, max) {
  * @param {number} num 
  * @returns //True of False
  */
-function isEven(num) {
+function isEven(number) {
     return number % 2 === 0;
 }
